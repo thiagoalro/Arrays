@@ -8,6 +8,9 @@ public class Main {
 		// create the array; assign to array variable
 		String[] strings = new String[6];
 
+		System.out.printf("%d%n", myArray[0]);
+		System.out.printf("%s%n", strings[0]);
+
 		for (int counter = 0; counter < myArray.length; counter++) {
 			System.out.printf("%d, %d%n", counter, myArray[counter]);
 		}
